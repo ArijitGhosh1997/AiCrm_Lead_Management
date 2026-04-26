@@ -65,6 +65,14 @@ The system operates across multiple lead stages:
 - Activity tracking  
 
 ---
+RAG (Retrieval-Augmented Generation) Testing
+Document ingestion and processing
+Context-based response generation
+Response accuracy and completeness
+Multi-client data isolation
+Edge case handling
+
+---
 
 ## Repository Structure
 
