@@ -58,9 +58,3 @@ High
 Functional Bug / UI Bug / Backend Sync Issue
 
 ---
-
-## Suggested Fix
-- After a booking is confirmed, immediately trigger a calendar availability refresh that marks the booked slot as unavailable.
-- Implement real-time slot locking at the backend layer to prevent race conditions for simultaneous bookings.
-- Add timezone-aware validation to ensure slot availability checks account for cross-timezone overlap.
-- Write automated test coverage for: "book a slot → verify slot is marked unavailable in calendar for all timezone views."
