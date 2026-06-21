@@ -1,4 +1,4 @@
-# TC_003: CRM Integration – Lead Sync and Follow-Up Validation
+# CRM Integration – Lead Sync and Follow-Up Validation
 
 ## Module
 AI CRM System – CRM Integration (External CRM → AI CRM Lead Sync)
