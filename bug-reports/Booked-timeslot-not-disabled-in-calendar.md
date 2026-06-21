@@ -36,7 +36,7 @@ After a lead successfully books an appointment in a specific timezone, the corre
 ## Timezone Testing Coverage
 | Timezone Selected | Booking Completed | Slot Disabled After Booking |
 |-------------------|-------------------|-----------------------------|
-| Mountain Time (US & Canada) | ✅ Yes | ❌ No |
+| Mountain Time (US & Canada) | Yes |  No |
 
 ---
 
