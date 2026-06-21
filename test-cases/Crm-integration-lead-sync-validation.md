@@ -31,7 +31,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | Create a new lead in the external CRM |
 | **Expected Result** | Lead is automatically imported and visible in the AI CRM System |
 | **Validation** | Verify lead details (name, email, source) are correctly mapped |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_A02 – Representative Meeting Creation from AI CRM System
 
@@ -40,7 +40,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | Representative creates a meeting/appointment for the synced lead |
 | **Expected Result** | Meeting is created and associated with the correct lead record |
 | **Validation** | Confirm meeting appears in the representative's schedule and in lead activity |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_A03 – Attendee Email List Verification via Database
 
@@ -49,7 +49,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | After meeting creation, verify attendee email list in the backend |
 | **Expected Result** | All invited attendees (lead + rep) are correctly stored in the meeting record |
 | **Validation** | Query database to confirm attendee list matches the booking inputs |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_A04 – Representative Follow-Up Time Validation
 
@@ -58,7 +58,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | Verify the follow-up time assigned to the representative after lead import |
 | **Expected Result** | Follow-up time is correctly set based on system configuration and lead timezone |
 | **Validation** | Check `repFollowupTime` value in the database; cross-check with representative's local time display |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_A05 – Local Time Conversion Accuracy
 
@@ -66,7 +66,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 |-------|--------|
 | **Action** | Verify that follow-up times are correctly converted to the representative's local timezone |
 | **Expected Result** | Follow-up time shown in the UI matches the expected local conversion of the stored UTC/system time |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_A06 – Lead Status Change by Representative
 
@@ -74,7 +74,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 |-------|--------|
 | **Action** | Representative attempts to update the lead's status from their dashboard |
 | **Expected Result** | Status change is accepted and reflected immediately in both the rep view and the admin/system view |
-| **Status** | ✅ Completed – Status change successful |
+| **Status** | Completed – Status change successful |
 
 ---
 
@@ -87,7 +87,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | Create a lead in the external CRM that is not set to sync |
 | **Expected Result** | Lead does not appear in the AI CRM System's main lead list |
 | **Validation** | Confirm no import record exists for this lead |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_B02 – Representative Follow-Up Time for Non-Synced Lead
 
@@ -96,7 +96,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | Observe follow-up time assignment behaviour for a non-synced lead |
 | **Expected Result** | No automated follow-up is triggered for non-synced leads |
 | **Validation** | Confirm `repFollowupTime` is null or absent in the database for this lead |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 #### TC_003_B03 – Representative Attempts Status Change on Non-Synced Lead
 
@@ -105,7 +105,7 @@ This test suite validates the lead synchronization flow between an external CRM 
 | **Action** | Representative tries to change status of a lead that is not synced |
 | **Expected Result** | System should restrict or handle the status change appropriately |
 | **Validation** | Observe system response and check if any unintended state changes occur |
-| **Status** | ✅ Completed |
+| **Status** | Completed |
 
 ---
 
