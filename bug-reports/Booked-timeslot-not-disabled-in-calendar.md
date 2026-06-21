@@ -1,4 +1,4 @@
-# BUG_003: Appointment Calendar Time Slots Not Disabled After Booking
+# Appointment Calendar Time Slots Not Disabled After Booking
 
 ## Module
 AI CRM System – Appointment Scheduling / Calendar Module
