@@ -1,4 +1,4 @@
-# BUG_01: AI Response Quality, Tone & Content Issues in RAG-Based System
+# AI Response Quality, Tone & Content Issues in RAG-Based System
 
 ## Module
 AI Response Generation (RAG / Chatbot)
