@@ -1,4 +1,4 @@
-# BUG_001: Follow-Up Timing Incorrect After Lead Requests a Delay
+# Follow-Up Timing Incorrect After Lead Requests a Delay
 
 ## Module
 AI CRM System – Automated Follow-Up Engine
@@ -57,9 +57,3 @@ High
 AI Behavior Issue / Functional Bug / Backend Bug
 
 ---
-
-## Suggested Fix
-- Validate and parse the lead's delay request within the AI response handler before setting the next follow-up timestamp.
-- Ensure the follow-up scheduling logic locks the timer to the lead-requested delay and does not allow overlapping triggers.
-- Add a guard condition to prevent double-increment of the follow-up counter when a time-change request is active.
-- Write a unit test covering the scenario: "follow-up time change requested by lead → verify exact one follow-up sent after requested delay."
