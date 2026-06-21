@@ -1,4 +1,4 @@
-# BUG_002: Calendar Event Title Displaying Incorrect Dynamic Field Value
+# Calendar Event Title Displaying Incorrect Dynamic Field Value
 
 ## Module
 AI CRM System – Appointment Booking / Calendar Integration
