@@ -1,4 +1,4 @@
-# BUG: Lead Status Update Issues
+# Lead Status Update Issues
 
 ---
 
