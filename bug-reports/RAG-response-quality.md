@@ -137,12 +137,3 @@ High
 
 ## Type
 AI Behavior / UX / Content Issue  
-
----
-
-## Suggested Fix
-- Remove internal references from responses  
-- Improve response tone (human + sales-focused)  
-- Add strong CTA (consultation booking)  
-- Implement fallback response strategy  
-- Ensure strict domain validation  
