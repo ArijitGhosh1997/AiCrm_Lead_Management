@@ -38,9 +38,9 @@ When an appointment is booked through the AI chatbot and calendar invitations ar
 ## Cross-Platform Testing Results
 | Bot Email Platform | Lead Email Platform | Rep Email Platform | Issue Present |
 |--------------------|---------------------|--------------------|---------------|
-| Outlook | Gmail | Gmail | ✅ Yes |
-| Outlook | Outlook | Gmail | ✅ Yes |
-| Outlook | Gmail | Outlook | ✅ Yes |
+| Outlook | Gmail | Gmail |  Yes |
+| Outlook | Outlook | Gmail |  Yes |
+| Outlook | Gmail | Outlook |  Yes |
 
 **Note:** All other dynamic fields (meeting link, meeting ID, passcode, event body, description) populate correctly across all platforms. Only the `{Company Name}` field inside the event title parentheses is affected.
 
