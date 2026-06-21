@@ -35,17 +35,6 @@ The AI CRM System serves clients operating across multiple countries and time zo
 
 ---
 
-## Acceptance Criteria
-- [ ] All global timezones from the IANA tz database are available in the Add User form dropdown.
-- [ ] Timezone field is searchable by city name, offset, or timezone code.
-- [ ] On user creation, the selected timezone is stored correctly in the user record.
-- [ ] Follow-up times for the user are calculated and displayed based on the stored timezone.
-- [ ] Appointment calendar times reflect the user's configured timezone.
-- [ ] Changing a user's timezone updates all associated time-based displays accordingly.
-- [ ] Tested across at least 3 major timezone regions (e.g., Eastern US, IST, GMT).
-
----
-
 ## Impact if Not Implemented
 - Representatives receive follow-up assignments or calendar events at incorrect local times.
 - Leads may receive communications outside of their expected timezone window.
